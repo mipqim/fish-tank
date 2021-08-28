@@ -26,6 +26,10 @@ class Fish extends Denizen {
     if (this.timeUntilSpeedChange < 0) {
       this.makeNewVelocity();
     }
+
+
+
+
   }
 
   makeNewVelocity(minMag) {
@@ -34,4 +38,3 @@ class Fish extends Denizen {
   }
 
 }
-

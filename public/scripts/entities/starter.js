@@ -19,5 +19,10 @@ class Starter extends Denizen {
       velocity: new Vector(xVel, yVel),
       type: this.tank.getRandomSpecies(),
     });
+    var seaweed = new Seaweed({
+      tank: window.fishtank,
+      position: new Vector(randRangeInt(-500, 500), randRangeInt(-20, 500))
+    });
+
   }
 }
